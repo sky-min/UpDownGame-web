@@ -19,6 +19,9 @@ body{
 .start{
 	margin-top: 10rem;
 }
+.start p{
+	font-size: 20px;
+}
 .start input{
 	font-size: 30px;
 	padding: 20px;

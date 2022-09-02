@@ -86,3 +86,13 @@ body{
 #last_num{
 	color: #ffcd00;
 }
+
+@media ( max-width: 767px ) {
+	.title h1{
+		font-size: 50px;
+	}
+
+	.score{
+		margin-right: 5%;
+	}
+}

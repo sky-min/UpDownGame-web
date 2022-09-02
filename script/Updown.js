@@ -28,7 +28,7 @@ function rand(max){
 
 function start(){
 	level = 1;
-	life = 7;
+	life = 5;
 	LevelPoint.innerHTML = level;
 	LifePoint.innerHTML = life;
 	Hint.innerHTML = null;

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body{
+	text-align: center;
+}
+
+.title{
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+.title h1{
+	font-size: 60px;
+	font-family: Poppins;
+	text-decoration: underline;
+	text-decoration-color: #d8ff60;
+	text-underline-position: under;
+}
+
+.start{
+	margin-top: 10rem;
+}
+.start input{
+	font-size: 30px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.play{
+	margin-top: 2rem;
+}
+.play p{
+	font-size: 18;
+}
+.play input{
+	font-size: 24px;
+	padding: 2px;
+	width: 200px;
+	cursor: pointer;
+}
+.play button{
+	font-size: 25px;
+	padding: 1px;
+}
+.score{
+	font-size: 20px;
+	margin-right: 20%;
+	margin-bottom: 3rem;
+	text-align: right
+}
+
+.result{
+	margin-top: 5rem;
+	line-height: 50%;
+}
+.result h2{
+	font-size: 50px;
+	color: #ff0000;
+}
+.result h3{
+	font-size: 35px;
+}
+.result input{
+	font-size: 25px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.next{
+	margin-top: 2rem;
+	font-style: oblique;
+}
+.next h1{
+	font-size: 55px;
+	color: #b6ff6c;
+}
+.next p{
+	font-size: 20;
+}
+
+.life{
+	color: #317fff;
+}
+.level{
+	color: #06f64e;
+}
+#last_num{
+	color: #ffcd00;
+}

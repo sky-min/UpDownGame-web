@@ -3,29 +3,42 @@
 	<meta charset="utf-8" />
 	<title>UpDownGame</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
 	<div class="title">
-		<h1 id="T">UpDownGame</h1>
+		<h1 id="title">UpDownGame</h1>
 	</div>
+
 	<div class="start">
-		<input type="button" id="Start" value="Start!"/>
+		<input type="button" id="start" value="Start!"/>
 	</div>
+
 	<div class="play">
-		<p id="life">LIFE: <span id="lfp">5</span></p>
-		<p id="level">LEVEL: <span id="lvp">1</span></p>
-		<form action="">
-			<input type="number" id="input" maxlength="4"/>
-			<button id="submit">submit</button>
+		<div class="score">
+			<p id="life">LIFE: <span id="lfp" class="life">5</span></p>
+			<p id="level">LEVEL: <span id="lvp" class="level">1</span></p>
+		</div>
+		<form id="submit">
+			<input type="number" id="numInput"/>
+			<button type="submit">submit</button>
 		</form>
-		<p id=updownmsg>UP!</p>
+		<p id="hint"></p>
 	</div>
+
 	<div class="result">
-		<h1>Finish</h1>
-		<h2>Last Level: <span>1</span></h2>
+		<h2>Finish</h2>
 		<br />
-		<h4>Last Number is <span id="last_number">1</span></h4>
-		<input type="button"  id="restart" value="retry" />
+		<h3>Last Level: <span id="last_lv" class="level">1</span></h3>
+		<h3>Last Number is <span id="last_num">1</span></h3>
+		<input type="button"  id="restart" value="try again" />
 	</div>
+
+	<div class="next">
+		<h1>NEXT!</h1>
+		<br />
+		<p>Next Level is <span id="nextlv" class="level"></span></p>
+	</div>
+	<script src="./script/Updown.js" charset="utf-8"></script>
 </body>
 </html>

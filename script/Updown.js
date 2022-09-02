@@ -95,7 +95,6 @@ AnswerSubmit.addEventListener('submit', function(ev){
 	}
 	num = Number(input);
 	NumInput.value = null;
-	console.log(num);
 	if(answer === num){
 		nextLevel();
 	}else{
